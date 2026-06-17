@@ -5,9 +5,9 @@
     }
   },
   "routes": [
-    { "src": "/admin", "dest": "admin.php" },
-    { "src": "/export", "dest": "export.php" },
-    { "src": "/university", "dest": "university.php" },
-    { "src": "/(.*)", "dest": "index.php" }
+    { "src": "/admin", "dest": "/api/admin.php" },
+    { "src": "/export", "dest": "/api/export.php" },
+    { "src": "/university", "dest": "/api/university.php" },
+    { "src": "/(.*)", "dest": "/api/index.php" }
   ]
 }
