@@ -28,7 +28,7 @@ $uni_meta = [
         'accent' => 'text-indigo-600',
         'btn' => 'bg-indigo-600 hover:bg-indigo-750',
         'image' => 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80', // Технологи
-        'features' => ['Орчин үеийн өндөр хүчин чадалтай лаборатори', 'Силикон хөндийн хөтөлбөр', '100% практикт суурилсан сургалт']
+        'features' => ['Орчин үеийн өндөр хүчин чадалтай лаборатори', '', '100% практикт суурилсан сургалт']
     ],
     'hzs' => [
         'bg_color' => 'from-amber-800 to-amber-950',
@@ -57,6 +57,9 @@ $uni_meta = [
         'btn' => 'bg-slate-700 hover:bg-slate-800',
         'image' => 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80', // Санхүү / Бизнес
         'features' => ['Bloomberg терминал бүхий санхүүгийн лаборатори', 'Бизнес инкубатор төв', 'Олон улсын ACCA, CFA зэрэг эрх авах хөтөлбөр']
+    ],
+    'abhss' => [
+        
     ]
 ];
 
@@ -91,9 +94,9 @@ $meta = $uni_meta[$slug] ?? [
             </div>
             <div class="w-full md:w-96 shrink-0 bg-white/10 backdrop-blur-md p-6 rounded-3xl border border-white/20 shadow-2xl">
                 <h3 class="font-bold text-xl mb-3">Холбоо барих</h3>
-                <p class="text-sm text-blue-100 mb-2">📍 Хаяг: Улаанбаатар хот, Сүхбаатар дүүрэг</p>
-                <p class="text-sm text-blue-100 mb-2">📞 Утас: 7011-XXXX</p>
-                <p class="text-sm text-blue-100">🌐 Вэбсайт: www.<?php echo $slug; ?>.edu.mn</p>
+                <p class="text-sm text-blue-100 mb-2">📍 Хаяг: Улаанбаатар хот, Баянзүрх дүүрэг</p>
+                <p class="text-sm text-blue-100 mb-2">📞 Утас: 7711-9696</p>
+                <p class="text-sm text-blue-100">🌐 Вэбсайт: www.ikhzasag<?php echo $slug; ?>.edu.mn</p>
             </div>
         </div>
     </div>
@@ -150,7 +153,7 @@ $meta = $uni_meta[$slug] ?? [
     </main>
 
     <footer class="bg-white border-t mt-20 py-8 text-center text-sm text-gray-400 font-medium">
-        &copy; <?php echo date('Y'); ?> RIASEC Мэргэжил Сонголтын Систем. Бүх эрх хуулиар хамгаалагдсан.
+        &copy; <?php echo date('Y'); ?> RIASEC Мэргэжил Сонголтын Систем.
     </footer>
 
 </body>
