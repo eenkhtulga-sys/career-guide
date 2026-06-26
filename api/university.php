@@ -28,7 +28,7 @@ $uni_meta = [
         'accent' => 'text-indigo-600',
         'btn' => 'bg-indigo-600 hover:bg-indigo-750',
         'image' => 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80', // Технологи
-        'features' => ['Орчин үеийн өндөр хүчин чадалтай лаборатори', '', '100% практикт суурилсан сургалт']
+        'features' => ['Орчин үеийн өндөр хүчин чадалтай лаборатори', 'Чанартай боловсрол', '100% практикт суурилсан сургалт']
     ],
     'hzs' => [
         'bg_color' => 'from-amber-800 to-amber-950',
@@ -42,27 +42,27 @@ $uni_meta = [
         'accent' => 'text-teal-600',
         'btn' => 'bg-teal-600 hover:bg-teal-700',
         'image' => 'https://images.unsplash.com/photo-1538108149393-fbbd8189893d?auto=format&fit=crop&w=1200&q=80', // Анагаах
-        'features' => ['Орчин үеийн симуляцийн төв', 'Төгсөөд шууд харьяа эмнэлгүүдэд ажиллах эрх', 'Дэлхийн стандартад нийцсэн лаборатори']
+        'features' => ['Чанартай боловсрол','Нөхөрсөг хамт олон','Уян хатан тэтгэлэгт хөтөлбөрүүд']
     ],
     'hus' => [
         'bg_color' => 'from-rose-600 to-purple-900',
         'accent' => 'text-rose-600',
         'btn' => 'bg-rose-600 hover:bg-rose-700',
         'image' => 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1200&q=80', // Хүмүүнлэг / Багш
-        'features' => ['Бүтээлч сэтгэлгээг дэмжих арт студи', 'Театр, хэвлэл мэдээллийн өөрийн студи', 'Сэтгэл зүйн зөвлөгөө өгөх төв']
+        'features' => ['Чанартай боловсрол','Нөхөрсөг хамт олон','Уян хатан тэтгэлэгт хөтөлбөрүүд']
     ],
     'sezs' => [
         'bg_color' => 'from-slate-700 to-blue-950',
         'accent' => 'text-slate-700',
         'btn' => 'bg-slate-700 hover:bg-slate-800',
         'image' => 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80', // Санхүү / Бизнес
-        'features' => ['','','']
+        'features' => ['Чанартай боловсрол','Нөхөрсөг хамт олон','Уян хатан тэтгэлэгт хөтөлбөрүүд']
     ],
     // 'abhss' => [
     //     'bg_color' => 'from-slate-700 to-blue-950',
     //     'accent' => 'text-slate-700',
     //     'btn' => 'bg-slate-700 hover:bg-slate-800',
-    //     'features' => ['','','']
+    //     'features' => ['Чанартай боловсрол','Нөхөрсөг хамт олон','Уян хатан тэтгэлэгт хөтөлбөрүүд']
     // ]
 ];
 
