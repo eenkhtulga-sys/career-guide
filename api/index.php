@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
 <body class="bg-slate-50 select-none">
 
     <div id="step-0" class="flex flex-col items-center justify-center min-h-screen p-6">
-        <h1 class="text-5xl font-black mb-8 text-blue-900 text-center tracking-tight">ИХ СУРГУУЛИЙН МЭРГЭЖИЛ СОНГОЛТ</h1>
+        <h1 class="text-5xl font-black mb-8 text-blue-900 text-center tracking-tight">МЭРГЭЖИЛ СОНГОЛТЫН ТЕСТ</h1>
         <div class="w-full max-w-2xl bg-white p-10 rounded-3xl shadow-2xl border">
             <div class="space-y-4">
                 <input type="text" id="student_name" placeholder="Овог Нэр" class="w-full text-2xl p-5 rounded-2xl border-2 bg-gray-50 focus:outline-none focus:border-blue-500">
